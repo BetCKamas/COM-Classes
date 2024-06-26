@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kristi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Kristi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bigelow+Rules&display=swap');
+
+header{
+	background-color: red;
+	margin-left: -8px;
+	margin-right: -8px;
+	margin-top: -10px;
+}	
+
+main nav ul{
+	display:flex;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+header nav ul{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	border-bottom: .25vw solid #00bcd5;
+	display: flex;
+	justify-content: center;
+}
+
+main nav li{
+	list-style-type: none;
+}
+
+header nav li{
+	font-size: 1.2vw;
+	margin: .5em;
+	padding: .5em;
+	font-family: 'Orbitron', sans-serif;
+}
+
+header a:link, header a:visited{
+	color: white;
+}
+
+header a:focus, header a:hover, header a:active{
+	color: blue;
+}
+
+main a:link, main a:visited{
+	color: white;
+}
+
+main a:focus, main a:hover, main a:active{
+	color: #551a8b;
+}
+
+h1{
+	text-align: center;
+	font-family: 'Press Start 2P', cursive;
+	font-size: 5vw;
+}
+
+h2{
+	text-align: center;
+	font-family: 'Press Start 2P', cursive;
+	font-size: 2vw;
+}
+
+.container{
+	margin-top: 20px;
+}
+
+.image{
+	margin-top: 20px;
+	width:50%;
+	padding-right: 6vw;
+}
+
+
+.text{
+	font-size: 1.5vw;
+	align-self: center;
+	font-family: 'Orbitron', sans-serif;
+	margin-left: 0px;
+	margin-right: 20px;
+	margin-top: 20px;
+}
+
+.horz{
+	width: 40vw;
+	text-align: left;
+}
+
+.vert{
+	width: 40vw;
+	text-align: right;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+ 
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  justify-content: center;
+  padding: 1vw;
+}
+
+.hlogo{
+	width: 4vw;
+	height: auto;
+	display: flex;
+	text-align: center;
+	padding: 10px;
+}
+
+.vlogo{
+	width: auto;
+	height: 5vw;
+	display: flex;
+	text-align: center;
+	padding: 10px;
+}
+
+size{
+	width: 25%;
+	height:auto
+}
+
+main{
+	margin-left: 3vw;
+	margin-right: 3vw;
+}
+
+footer{
+	background: url(flowers.png) left bottom repeat-x;
+	background-size: 125px;
+	font-size: 1vw;
+	padding:45px;
+	font-family: 'Orbitron', sans-serif;
+	margin-bottom: -10px;
+}
+
+footer p{
+	text-align: center;
+}
+
+img{
+	width: 100%;
+	height: auto;
+}
+
+
+
+body{
+	background-color: #f7f7f7;
+}
+
+main p{
+	width: 500px;
+	padding: 0px;
+	
+}
+.link1{
+	font-size: 8vw;
+	padding:5vw;
+	margin-top: -5vw;
+	list-style-type: none;
+}
+
+.color1{
+	color: brown;
+	background-color:green;
+	font-family: 'Bigelow Rules', cursive;
+	text-align: center;
+}
+
+.link2{
+	font-size: 10vw;
+	margin-top: 5vw;
+	padding:2vw;
+	list-style-type: none;
+}
+
+.color2{
+	color: purple;
+	background-color:pink;
+	font-family: 'Unica One', cursive;
+	text-align: center;
+}
+
+.link3{
+	font-size: 8vw;
+	margin: -2vw;
+	padding:5vw;
+	list-style-type: none;	
+}
+
+.color3{
+	color: white;
+	background-color:black;
+	font-family: 'Amatic SC', cursive;
+	text-align: center;
+}
+
+.link4{
+	font-size: 7vw;
+	padding:3vw;
+	list-style-type: none;
+	}
+
+.color4{
+	color: yellow;
+	background-color:blue;
+	font-family: 'VT323', monospace;
+	text-align: center;
+}
+
+.link5{
+	font-size: 3vw;
+	padding:5vw;
+	list-style-type: none;
+	transform: rotate(-20deg);
+}
+
+.color5{
+	color: orange;
+	background-color: purple;
+	font-family: 'Kristi', cursive;
+
+}
+
+.link6{
+	font-size: 3vw;
+	padding:5vw;
+	list-style-type: none;
+	transform: rotate(20deg);
+}
